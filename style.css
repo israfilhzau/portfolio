@@ -1,0 +1,10 @@
+/* New custom absolute positioning for the image container */
+        .image-absolute-container {
+            position: absolute;
+            /* Customize the position by changing these values: */
+            right: 40px; 
+            bottom: 40px; 
+            width: 35%; /* Adjust image width if needed */
+            max-width: 300px; /* Cap maximum size for visual balance */
+            z-index: 10;
+        }
